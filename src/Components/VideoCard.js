@@ -8,8 +8,8 @@ const VideoCard = (props) => {
 //   const { title, channelTitle, thumbnails, publishedAt } = {snippet}
 //   const { viewCount } = {statistics}
 
-  console.log("video card "+props?.snippet.title)
-  const avatar = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlR3hMw_3daUL3Uhr5Y3uJh_kMaYzyqQhhPA&usqp=CAU"
+//   console.log("video card "+props?.snippet.title)
+//   const avatar = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlR3hMw_3daUL3Uhr5Y3uJh_kMaYzyqQhhPA&usqp=CAU"
   // console.log(snippet)
   return (
 
