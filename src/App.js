@@ -9,17 +9,19 @@ import store from "./Utilis/store";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import MainContainer from "./Components/MainContainer";
 import WatchContainer from "./Components/WatchContainer";
+import Error from "./Utilis/Error";
 
 
 const appRoute = createBrowserRouter([
   {
     path:'/',element:<Body/> ,
+    errorElement:<Error/>,
     children:[
       {
         path:'/',element:<MainContainer/>
       },
       {
-        path:'watch',
+        path:'/watch',
         element:<WatchContainer/>
       }
     ]

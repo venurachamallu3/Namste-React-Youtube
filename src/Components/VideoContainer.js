@@ -11,6 +11,9 @@ const VideoContainer = () => {
     useEffect(()=>{
         getVideos();
     },[])
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
 
 
     async function getVideos(){
