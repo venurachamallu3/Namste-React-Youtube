@@ -33,8 +33,11 @@ const Header = () => {
             }else{
                 getSuggestions();
             }
+            return () => {
+                clearInterval(timer)
+            }
 
-        },200)
+        },1000)
 
     },[SearchQuery])
 
