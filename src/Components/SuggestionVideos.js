@@ -24,6 +24,7 @@ const SuggestionVideos = ({props}) => {
         // console.log("removed videos "+removevideo[0].id)
         // setrelatedVideos(removevideo)
         // console.log("setrelated viseos "+relatedVideos)
+      // get all the videos using through the YouTube main api 
     },[])
 
 
